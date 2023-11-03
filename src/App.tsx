@@ -1,5 +1,8 @@
-function App() {
-  return <div>App</div>
+import { AppContainer } from "./styles"
+import { FC } from "react"
+
+const App: FC = () => {
+  return <AppContainer></AppContainer>
 }
 
 export default App
